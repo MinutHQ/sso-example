@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Test SSO Login Minut</title>
+  <meta name="description" content="This is an example of a meta description." />
+  <script type="text/javascript">
+    function setup() {
+      const button = document.getElementsByTagName("button")[0]
+      button?.addEventListener("click", login)
+    }
+
+    function login() {
+      const url = "URL"
+      window.location.href = url
+    }
+  </script>
+</head>
+
+<body onload="setup()">
+  <h1>Test SSO Login Minut</h1>
+  <button>Login</button>
+  <p>Email: EMAIL</p>
+</body>
+
+</html>
